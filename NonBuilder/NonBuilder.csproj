@@ -5,7 +5,8 @@
     <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
   </PropertyGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
-  <Target Name="Build">
-   <Message Importance="high" Text="Skipping build for this project." />
-  </Target>
+  <Target Name="PrepareForBuild"/>
+  <Target Name="Build"/>
+  <Target Name="Compile"/>
+  <Target Name="ResolveReferences"/>
 </Project>
